@@ -48,6 +48,7 @@ function setup(){
 
 function draw(){
     if(backgroundImg)
+    {
         background(backgroundImg);
     
         noStroke();
@@ -77,7 +78,8 @@ function draw(){
     bird.display();
     platform.display();
     //log6.display();
-    slingshot.display();    
+    slingshot.display();  
+    }
 }
 
 function mouseDragged(){
